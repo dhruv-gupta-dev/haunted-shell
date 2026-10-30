@@ -44,52 +44,14 @@ Every `git log` is an obituary column. Behind every clean `main` branch lie buri
 
 ## ⚙️ Tech Stack
 
-<table>
-  <tr>
-    <td align="center" width="96">
-      <a href="https://nodejs.org">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="48" height="48" alt="Node.js" />
-      </a>
-      <br><strong>Node.js 24</strong>
-      <br><sub>ES Modules</sub>
-    </td>
-    <td align="center" width="96">
-      <a href="https://ollama.com">
-        <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/ollama.png" width="48" height="48" alt="Ollama" />
-      </a>
-      <br><strong>Ollama</strong>
-      <br><sub>Local Inference</sub>
-    </td>
-    <td align="center" width="96">
-      <a href="https://ai.google.dev/gemma">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Google_Gemini_icon_2025.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" width="48" height="48" alt="Gemma" />
-      </a>
-      <br><strong>Gemma 3</strong>
-      <br><sub>Open-Weight LLM</sub>
-    </td>
-    <td align="center" width="96">
-      <a href="https://lmstudio.ai">
-        <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/lmstudio.png" width="48" height="48" alt="LM Studio" />
-      </a>
-      <br><strong>LM Studio</strong>
-      <br><sub>Alt Provider</sub>
-    </td>
-    <td align="center" width="96">
-      <a href="https://git-scm.com">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" height="48" alt="Git" />
-      </a>
-      <br><strong>Git</strong>
-      <br><sub>Forensic Source</sub>
-    </td>
-    <td align="center" width="96">
-      <a href="https://www.javascript.com">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" />
-      </a>
-      <br><strong>JavaScript</strong>
-      <br><sub>ES2024+</sub>
-    </td>
-  </tr>
-</table>
+| Component | Technology | Role in Haunted Shell |
+| :--- | :--- | :--- |
+| **Runtime** | [![Node.js](https://img.shields.io/badge/Node.js_24_LTS-339933?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org) | Native ES modules, native streaming fetch, zero external npm packages |
+| **Language** | [![JavaScript](https://img.shields.io/badge/JavaScript-ES2024+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org) | Built-in `fetch`, `node:readline/promises`, `node:child_process` |
+| **Local AI Engine** | [![Ollama](https://img.shields.io/badge/Ollama-Local_Inference-000000?style=flat-square&logo=ollama&logoColor=white)](https://ollama.com) | Port 11434 OpenAI-compatible streaming server (`/v1/chat/completions`) |
+| **Open-Weight LLM** | [![Google Gemma](https://img.shields.io/badge/Google_Gemma_3-4B-4285F4?style=flat-square&logo=google&logoColor=white)](https://ai.google.dev/gemma) | Primary spectral chronicler persona & technical diagnostic engine |
+| **Alternative Engine** | [![LM Studio](https://img.shields.io/badge/LM_Studio-Port_1234-5B32F5?style=flat-square&logo=openai&logoColor=white)](https://lmstudio.ai) | Secondary local inference provider for custom open-weight models |
+| **Forensic Source** | [![Git](https://img.shields.io/badge/Git-Commit_Tree-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com) | Exhumes commit logs, excised lines (`-`), and working tree diffs |
 
 <br>
 
