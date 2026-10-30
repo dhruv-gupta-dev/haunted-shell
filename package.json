@@ -1,13 +1,33 @@
 {
   "name": "haunted-shell",
   "version": "1.0.0",
-  "description": "",
+  "description": "Zero-dependency spooky Node.js CLI connecting local open-weight AI models (Ollama, LM Studio) to your git repo and terminal (Hacktoberfest Week 4: Ghost in the Machine).",
+  "type": "module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "haunted-shell": "./index.js",
+    "haunted": "./index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js --help"
+  },
+  "keywords": [
+    "hacktoberfest",
+    "hf26challenge",
+    "ghost-in-the-machine",
+    "ollama",
+    "lm-studio",
+    "gemma",
+    "open-weight",
+    "cli",
+    "git",
+    "ai",
+    "zero-dependency"
+  ],
+  "author": "Dhruv Gupta",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
