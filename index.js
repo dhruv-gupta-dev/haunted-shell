@@ -41,17 +41,17 @@ const c = {
 
 // --- ASCII Banner ---
 const BANNER = `
-${c.ghostGreen}             .-.
-${c.ghostGreen}            /   \\          ${c.boneWhite}${c.bold}H A U N T E D   S H E L L${c.reset}
-${c.ghostGreen}           /     \\         ${c.candleGold}Ghost in the Machine • Hacktoberfest Week 4${c.reset}
-${c.ghostGreen}          | ${c.bloodRed}() ()${c.ghostGreen} |        ${c.tombstoneGray}Zero-Dependency Local AI Medium for Your Terminal${c.reset}
-${c.ghostGreen}          |   ${c.candleGold}^${c.ghostGreen}   |
-${c.ghostGreen}          \\  ${c.spiritCyan}'='${c.ghostGreen}  /        ${c.cryptPurple}[ autopsy ]  •  [ exorcise ]  •  [ seance ]${c.reset}
-${c.ghostGreen}          /\`-----'\`\\        ${c.dim}Summoning: Ollama / LM Studio (gemma3:4b)${c.reset}
-${c.ghostGreen}         / |     | \\
-${c.ghostGreen}        /  |  .  |  \\
-${c.ghostGreen}       (   (  .  )   )
-${c.ghostGreen}        '---' '---'${c.reset}
+${c.ghostGreen}            ___
+${c.ghostGreen}           /   \\
+${c.ghostGreen}          | ${c.bloodRed}o o${c.ghostGreen} |        ${c.boneWhite}${c.bold}H A U N T E D   S H E L L${c.reset}
+${c.ghostGreen}          |  ${c.candleGold}^${c.ghostGreen}  |        ${c.candleGold}Ghost in the Machine  -  Hacktoberfest Week 4${c.reset}
+${c.ghostGreen}          | ${c.spiritCyan}'-'${c.ghostGreen} |        ${c.tombstoneGray}Zero-Dependency Local AI Medium for Your Terminal${c.reset}
+${c.ghostGreen}           \\   /
+${c.ghostGreen}         __|   |__       ${c.cryptPurple}[ autopsy ]  [ exorcise ]  [ seance ]${c.reset}
+${c.ghostGreen}        /  |   |  \\      ${c.dim}Summoning: Ollama / LM Studio (gemma3:4b)${c.reset}
+${c.ghostGreen}       /   | . |   \\
+${c.ghostGreen}      (    (   )    )
+${c.ghostGreen}       '---'   '---'${c.reset}
 `;
 
 // --- System Persona ---

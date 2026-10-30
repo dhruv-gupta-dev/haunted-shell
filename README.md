@@ -1,31 +1,30 @@
 <div align="center">
 
-```text
-             .-.
-            /   \          H A U N T E D   S H E L L
-           /     \         Ghost in the Machine • Hacktoberfest Week 4
-          | () () |        Zero-Dependency Local AI Medium for Your Terminal
-          |   ^   |
-          \  '='  /        [ autopsy ]  •  [ exorcise ]  •  [ seance ]
-          /`-----'`\       Summoning: Ollama / LM Studio (gemma3:4b)
-         / |     | \
-        /  |  .  |  \
-       (   (  .  )   )
-        '---' '---'
+```
+                H A U N T E D   S H E L L
+                  Ghost in the Machine • Hacktoberfest Week 4
+                Zero-Dependency Local AI Medium for Your Terminal
+          
+                  [ autopsy ]  •  [ exorcise ]  •  [ seance ]
+                Summoning: Ollama / LM Studio (gemma3:4b)
 ```
 
 # 👻 Haunted Shell
 
-### *A terminal séance where your dead code speaks from beyond the commit grave*
+**`Ghost in the Machine`** · Hacktoberfest 2026 Week 4
+
+*A terminal séance where your dead code speaks from beyond the commit grave.*
 
 **Your git history is a graveyard. Deleted functions, buried hotfixes, and crashed processes leave spectral traces in your diffs. Haunted Shell channels them through local open-weight AI—100% offline, zero dependencies, zero cloud leakage.**
 
+`[ ⚰️ autopsy ]` &nbsp;&nbsp; `[ ⚡ exorcise ]` &nbsp;&nbsp; `[ 🔮 seance ]`
+
 <br>
 
-[![Hacktoberfest 2026](https://img.shields.io/badge/🎃_Hacktoberfest-2026_Week_4-FF7518?style=for-the-badge)](https://dev.to/challenges/hf26)
-[![Ghost in the Machine](https://img.shields.io/badge/👻_Theme-Ghost_in_the_Machine-8B5CF6?style=for-the-badge)](https://dev.to/events/challenges/hacktoberfest-week4-2026-10-26)
-[![Zero Dependencies](https://img.shields.io/badge/📦_Dependencies-0_Zero-0EA5E9?style=for-the-badge)](package.json)
-[![MIT License](https://img.shields.io/badge/⚖️_License-MIT-22C55E?style=for-the-badge)](LICENSE)
+[![Hacktoberfest 2026](https://img.shields.io/badge/Hacktoberfest-2026_Week_4-FF7518?style=for-the-badge&logo=hackthebox&logoColor=white)](https://dev.to/challenges/hf26)
+[![Ghost in the Machine](https://img.shields.io/badge/Theme-Ghost_in_the_Machine-8B5CF6?style=for-the-badge&logo=ghost&logoColor=white)](https://dev.to/events/challenges/hacktoberfest-week4-2026-10-26)
+[![Zero Dependencies](https://img.shields.io/badge/Dependencies-0_Zero-0EA5E9?style=for-the-badge&logo=npm&logoColor=white)](package.json)
+[![MIT License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
 
 </div>
 
@@ -56,21 +55,21 @@ Every `git log` is an obituary column. Behind every clean `main` branch lie buri
     </td>
     <td align="center" width="96">
       <a href="https://ollama.com">
-        <img src="https://ollama.com/public/ollama.png" width="48" height="48" alt="Ollama" />
+        <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/ollama.png" width="48" height="48" alt="Ollama" />
       </a>
       <br><strong>Ollama</strong>
       <br><sub>Local Inference</sub>
     </td>
     <td align="center" width="96">
       <a href="https://ai.google.dev/gemma">
-        <img src="https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690b6.svg" width="48" height="48" alt="Gemma" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Google_Gemini_icon_2025.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" width="48" height="48" alt="Gemma" />
       </a>
       <br><strong>Gemma 3</strong>
       <br><sub>Open-Weight LLM</sub>
     </td>
     <td align="center" width="96">
       <a href="https://lmstudio.ai">
-        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/lmstudio.svg" width="48" height="48" alt="LM Studio" />
+        <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/lmstudio.png" width="48" height="48" alt="LM Studio" />
       </a>
       <br><strong>LM Studio</strong>
       <br><sub>Alt Provider</sub>
