@@ -1,14 +1,4 @@
-# 👻 Haunted Shell
-
-> **Ghost in the Machine • Hacktoberfest 2026 (Week 4 DEV Challenge)**  
-> *A zero-dependency Node.js ES module CLI connecting local open-weight AI models to your git repository and terminal.*
-
-[![Hacktoberfest 2026](https://img.shields.io/badge/Hacktoberfest-2026_Week_4-orange?style=for-the-badge&logo=hacktoberfest)](https://dev.to/challenges/hf26)
-[![Challenge Theme](https://img.shields.io/badge/Theme-Ghost_in_the_Machine-purple?style=for-the-badge)](https://dev.to/challenges/hf26)
-[![Node.js](https://img.shields.io/badge/Node.js-24%2B_LTS-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Zero Dependencies](https://img.shields.io/badge/Dependencies-0_Zero-007acc?style=for-the-badge)](package.json)
-[![Local AI](https://img.shields.io/badge/Local_AI-Gemma_3_%7C_Ollama_%7C_LM_Studio-e05d44?style=for-the-badge)](https://ollama.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+<div align="center">
 
 ```text
              .-.
@@ -17,220 +7,371 @@
           | () () |        Zero-Dependency Local AI Medium for Your Terminal
           |   ^   |
           \  '='  /        [ autopsy ]  •  [ exorcise ]  •  [ seance ]
-          /`-----'`\        Summoning: Ollama / LM Studio (gemma3:4b)
+          /`-----'`\       Summoning: Ollama / LM Studio (gemma3:4b)
          / |     | \
         /  |  .  |  \
        (   (  .  )   )
         '---' '---'
 ```
 
+# 👻 Haunted Shell
+
+### *A terminal séance where your dead code speaks from beyond the commit grave*
+
+**Your git history is a graveyard. Deleted functions, buried hotfixes, and crashed processes leave spectral traces in your diffs. Haunted Shell channels them through local open-weight AI—100% offline, zero dependencies, zero cloud leakage.**
+
+<br>
+
+[![Hacktoberfest 2026](https://img.shields.io/badge/🎃_Hacktoberfest-2026_Week_4-FF7518?style=for-the-badge)](https://dev.to/challenges/hf26)
+[![Ghost in the Machine](https://img.shields.io/badge/👻_Theme-Ghost_in_the_Machine-8B5CF6?style=for-the-badge)](https://dev.to/events/challenges/hacktoberfest-week4-2026-10-26)
+[![Zero Dependencies](https://img.shields.io/badge/📦_Dependencies-0_Zero-0EA5E9?style=for-the-badge)](package.json)
+[![MIT License](https://img.shields.io/badge/⚖️_License-MIT-22C55E?style=for-the-badge)](LICENSE)
+
+</div>
+
 ---
 
-## 🕯️ The Lore: Ghost in the Machine
+<br>
 
-Every git repository is a digital graveyard. 
+## 🕯️ What Is This?
 
-Behind every `main` branch lie buried functions, excised logic, hasty hotfixes, and broken promises commemorated in cryptic commit messages. When builds break and commands crash, those buried spirits wail through unholy stack traces.
+Every `git log` is an obituary column. Behind every clean `main` branch lie buried functions, excised logic, hasty rollbacks, and broken promises memorialized in cryptic commit messages. When builds crash and tests fail, those buried spirits scream through unhelpful stack traces.
 
-**Haunted Shell** awakens the **Spectral Chronicler**—a Victorian necromancer and medium inhabiting your terminal. Powered by local open-weight models (**Google Gemma 3**, **Qwen**, or any model running locally in **Ollama** or **LM Studio**), it turns mundane git forensics and crash debugging into a chilling, delightfully gothic séance while delivering razor-sharp, actionable technical solutions.
+**Haunted Shell** awakens the *Spectral Chronicler*—a Victorian necromancer inhabiting your terminal. It feeds your git diffs, deleted code, and crash logs to a **local open-weight model** running on your own machine, and delivers gothic-flavored yet technically precise diagnostics.
 
----
+> *No API keys. No cloud. No subscriptions. Just you, your GPU, and the ghosts in your git history.*
 
-## 🔮 Three Spectral Rites
+<br>
 
-```text
-┌─────────────────┬────────────────────────────────────────────────────────┐
-│ Command         │ Purpose                                                │
-├─────────────────┼────────────────────────────────────────────────────────┤
-│ autopsy         │ Exhumes deleted code & diffs to find haunted bugs      │
-│ exorcise <cmd>  │ Executes a command, catches stderr, diagnoses crashes │
-│ seance          │ Interactive REPL commune with full git repository repo │
-└─────────────────┴────────────────────────────────────────────────────────┘
-```
+## ⚙️ Tech Stack
 
-### 1. `autopsy` — Exhuming the Commit Graveyard
-Scans your git commit history, unearths excised lines (`-` diffs), inspects working tree wounds, and conducts a forensic post-mortem:
-* **The Exhumation**: An accounting of what functionality was killed and buried.
-* **Haunted Bug Warnings**: Latent regressions, phantom references, or architectural debt.
-* **The Healing Rite**: Practical git commands and code fixes to restore balance.
+<table>
+  <tr>
+    <td align="center" width="96">
+      <a href="https://nodejs.org">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="48" height="48" alt="Node.js" />
+      </a>
+      <br><strong>Node.js 24</strong>
+      <br><sub>ES Modules</sub>
+    </td>
+    <td align="center" width="96">
+      <a href="https://ollama.com">
+        <img src="https://ollama.com/public/ollama.png" width="48" height="48" alt="Ollama" />
+      </a>
+      <br><strong>Ollama</strong>
+      <br><sub>Local Inference</sub>
+    </td>
+    <td align="center" width="96">
+      <a href="https://ai.google.dev/gemma">
+        <img src="https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690b6.svg" width="48" height="48" alt="Gemma" />
+      </a>
+      <br><strong>Gemma 3</strong>
+      <br><sub>Open-Weight LLM</sub>
+    </td>
+    <td align="center" width="96">
+      <a href="https://lmstudio.ai">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/lmstudio.svg" width="48" height="48" alt="LM Studio" />
+      </a>
+      <br><strong>LM Studio</strong>
+      <br><sub>Alt Provider</sub>
+    </td>
+    <td align="center" width="96">
+      <a href="https://git-scm.com">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" height="48" alt="Git" />
+      </a>
+      <br><strong>Git</strong>
+      <br><sub>Forensic Source</sub>
+    </td>
+    <td align="center" width="96">
+      <a href="https://www.javascript.com">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" />
+      </a>
+      <br><strong>JavaScript</strong>
+      <br><sub>ES2024+</sub>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+## 🔮 The Three Spectral Rites
+
+Haunted Shell provides three commands, each a different form of communion with the spirits trapped in your codebase:
+
+### ⚰️ `autopsy` — Post-Mortem on the Commit Graveyard
+
+Exhumes your recent git history—diffs, deleted lines, and commit stats—and feeds the corpse of changes to the local model for forensic analysis.
 
 ```bash
 haunted-shell autopsy
 ```
 
-### 2. `exorcise <command...>` — Process Chamber Trial
-Runs any shell command inside an isolated execution chamber and captures real-time outputs.
-* If the command succeeds (`exit code 0`): confirms the process was purified with no demons remaining.
-* If the command crashes (`exit code != 0`): captures `stderr`, analyzes the stack trace, and invokes the local model:
-  * **The Curse Identified**: What evil brought down the process.
-  * **The Forensic Breakdown**: Exact root cause in your runtime or code.
-  * **The Banishing Incantation**: The exact code patch or shell command to banish the error.
+**What it delivers:**
+
+| Output | Description |
+|:---|:---|
+| 🪦 **The Exhumation** | What functionality was killed and buried in recent commits |
+| 👻 **Haunted Bug Warnings** | Latent regressions, broken references, or phantom dependencies |
+| 💊 **The Healing Rite** | Specific git commands and code patches to restore the codebase |
+
+<br>
+
+### ⚡ `exorcise <cmd>` — Process Chamber Trial
+
+Spawns any shell command inside an execution chamber, monitors it in real-time, and if it crashes, captures `stderr` and summons a spectral diagnosis.
 
 ```bash
 haunted-shell exorcise npm test
-haunted-shell exorcise "node app.js"
-haunted-shell exorcise cargo build
+haunted-shell exorcise "cargo build --release"
+haunted-shell exorcise "python manage.py migrate"
 ```
 
-### 3. `seance` — Interactive Git REPL
-Summons an interactive, multi-turn communion circle in your terminal with live repository awareness:
-* Automatically loads current **git branch**, **working tree status**, **recent commits**, and **`package.json` scripts**.
-* Maintains conversational memory across questions.
-* Includes built-in spectral shortcut rites:
-  * `/status` — Inquire into the state of the living tree.
-  * `/diff` — Inspect uncommitted wounds.
-  * `/log` — Review the graveyard of past commits.
-  * `/clear` — Purify memory and restart the circle.
-  * `/exit` — Break the circle and return to the living.
+**Behavior:**
+
+| Exit Code | What Happens |
+|:---|:---|
+| `0` (Success) | ✅ Confirms the process was purified—no lingering demons |
+| `≠ 0` (Crash) | 💀 Traps stderr, invokes the local model, and delivers the diagnosis below |
+
+**Crash diagnosis structure:**
+
+| Output | Description |
+|:---|:---|
+| 🔥 **The Curse Identified** | What spectral evil brought down the process |
+| 🔬 **The Forensic Breakdown** | Exact technical root cause from the stack trace |
+| ✨ **The Banishing Incantation** | The precise code patch or shell command to fix it |
+
+<br>
+
+### 🔮 `seance` — Interactive REPL Commune
+
+Opens a persistent, multi-turn conversation with the Spectral Chronicler, pre-loaded with your full repository context.
 
 ```bash
 haunted-shell seance
 ```
 
+**Automatic context loaded:**
+- Current git branch and working tree status
+- Last 5 commits with messages
+- `package.json` project info and scripts
+
+**Built-in session rites:**
+
+| Rite | Action |
+|:---|:---|
+| `/status` | Inspects the working tree state |
+| `/diff` | Views uncommitted changes |
+| `/log` | Reviews the last 10 commits |
+| `/clear` | Purges conversation memory, starts fresh |
+| `/exit` | Breaks the circle, returns to the living |
+
+<br>
+
 ---
 
-## ⚡ Zero-Dependency Architecture
+## 🏗️ Architecture
 
-Built exclusively using modern **Node.js 24 LTS native capabilities**—no external packages, no bloated `node_modules`, no security vulnerabilities.
+### How Haunted Shell Works
 
 ```mermaid
 flowchart TD
-    subgraph Terminal ["🖥️ Developer Terminal"]
-        User["Developer"] -->|Command| CLI["haunted-shell (Node.js ES Module)"]
+    subgraph USER ["🧑‍💻 Developer"]
+        CMD["Terminal Command"]
     end
 
-    subgraph NativeNode ["⚙️ Native Node.js Built-ins (0 Dependencies)"]
-        CLI --> NativeProc["node:child_process (spawn, execSync)"]
-        CLI --> NativeRL["node:readline/promises (Interactive REPL)"]
-        CLI --> NativeFetch["Global fetch + SSE Stream Reader"]
-        CLI --> NativeColors["ANSI Spectral Palette (NO_COLOR safe)"]
+    subgraph CLI ["👻 Haunted Shell (index.js)"]
+        PARSE["Argument Parser"] --> ROUTE{Command Router}
+        ROUTE -->|autopsy| AUTOPSY["Git Forensics Engine"]
+        ROUTE -->|exorcise| EXORCISE["Process Execution Chamber"]
+        ROUTE -->|seance| SEANCE["Interactive REPL"]
     end
 
-    subgraph GitTree ["📁 Local Git Repository"]
-        NativeProc --> GitLog["git log -p (Deleted Code & Diffs)"]
-        NativeProc --> GitStatus["git status & branch"]
-        NativeProc --> ProcessChamber["Process Execution & Stderr Trap"]
+    subgraph GIT ["📁 Git Repository"]
+        AUTOPSY -->|"git log -p -n 3"| DIFFS["Commit Diffs & Deleted Lines"]
+        AUTOPSY -->|"git diff HEAD"| WORKING["Working Tree Changes"]
+        EXORCISE -->|spawn()| PROC["Child Process"]
+        PROC -->|exit ≠ 0| STDERR["Captured stderr"]
+        SEANCE -->|"git status/log"| CONTEXT["Branch & Commit Context"]
     end
 
-    subgraph LocalAI ["🧠 100% Offline Open-Weight Inference"]
-        NativeFetch -->|/v1/chat/completions (OpenAI compatible)| Engine{"Local AI Provider"}
-        Engine -->|Port 11434| Ollama["Ollama (gemma3:4b / qwen3:4b)"]
-        Engine -->|Port 1234| LMStudio["LM Studio"]
+    subgraph AI ["🧠 Local Open-Weight Inference (Offline)"]
+        DIFFS --> PROMPT["Prompt Builder"]
+        STDERR --> PROMPT
+        CONTEXT --> PROMPT
+        PROMPT -->|"POST /v1/chat/completions"| LLM{"Local AI Server"}
+        LLM -->|"Port 11434"| OLLAMA["Ollama<br>(gemma3:4b / qwen3:4b)"]
+        LLM -->|"Port 1234"| LMSTUDIO["LM Studio"]
+    end
+
+    subgraph OUTPUT ["🖥️ Streaming Terminal Output"]
+        LLM -->|"SSE Stream"| STREAM["Token-by-Token Render"]
+        STREAM --> ANSI["ANSI Spectral Colors"]
+    end
+
+    CMD --> PARSE
+```
+
+### Command Execution Flows
+
+```mermaid
+flowchart LR
+    subgraph AUTOPSY_FLOW ["⚰️ autopsy"]
+        A1["Read git log -p"] --> A2["Extract deleted lines (-)"]
+        A2 --> A3["Read git diff HEAD"]
+        A3 --> A4["Build forensic prompt"]
+        A4 --> A5["Stream AI response"]
+    end
+
+    subgraph EXORCISE_FLOW ["⚡ exorcise"]
+        E1["spawn(command)"] --> E2{"Exit Code?"}
+        E2 -->|"= 0"| E3["✅ Process Purified"]
+        E2 -->|"≠ 0"| E4["Capture stderr"]
+        E4 --> E5["Build diagnosis prompt"]
+        E5 --> E6["Stream AI response"]
+    end
+
+    subgraph SEANCE_FLOW ["🔮 seance"]
+        S1["Load git context"] --> S2["Open readline REPL"]
+        S2 --> S3["User types question"]
+        S3 --> S4["Append to conversation"]
+        S4 --> S5["Stream AI response"]
+        S5 --> S6["Store reply in history"]
+        S6 --> S3
     end
 ```
 
----
-
-## 📜 Why Open-Source & Open-Weight AI Matters
-
-This project was built for the **Hacktoberfest 2026: Week 4 Challenge (Ghost in the Machine)** under the `#hf26challenge` tag.
-
-When diagnosing crashes or inspecting git diffs, your repository contains private code, intellectual property, internal paths, and sometimes sensitive tokens. By relying strictly on local open-weight models (**Gemma 3:4b**, **Qwen 3:4b**, etc.):
-
-1. **Absolute Privacy**: Code diffs and crash traces never leave `localhost`.
-2. **Offline Resilience**: Works without internet access (in trains, planes, or off-grid cabins).
-3. **Zero API Subscriptions**: No rate limits, no paywalls, and no unexpected token bills.
-4. **Permanent Ownership**: Your developer tools cannot be deprecated or modified by an upstream cloud vendor.
+<br>
 
 ---
 
 ## 🚀 Quick Start
 
-### 1. Prerequisites
-* [Node.js](https://nodejs.org/) v18.0.0 or higher (v24 LTS recommended).
-* [Ollama](https://ollama.com/) or [LM Studio](https://lmstudio.ai/) running locally.
+### Prerequisites
 
-### 2. Summon an Open-Weight Model
+| Requirement | Version | Purpose |
+|:---|:---|:---|
+| [Node.js](https://nodejs.org/) | ≥ 18.0.0 (v24 LTS recommended) | Runtime with native `fetch` and ES modules |
+| [Ollama](https://ollama.com/) **or** [LM Studio](https://lmstudio.ai/) | Latest | Local open-weight model inference |
+| [Git](https://git-scm.com/) | Any | Repository context for autopsy and seance |
+
+### Step 1 — Pull an Open-Weight Model
+
 ```bash
-# Pull and start Google Gemma 3 (recommended default)
+# Google Gemma 3 — 4B parameters (recommended, default)
 ollama run gemma3:4b
 
-# Or use Qwen 3
+# Or Qwen 3 — 4B parameters
 ollama run qwen3:4b
 ```
 
-### 3. Run Haunted Shell
-Clone or navigate to the repository:
+### Step 2 — Clone & Run
+
 ```bash
+git clone https://github.com/dhruv-gupta-dev/haunted-shell.git
 cd haunted-shell
 
-# Link globally (optional)
-npm link
-
 # Run directly
-haunted-shell --help
-# or
 node index.js --help
+
+# Or link globally
+npm link
+haunted-shell --help
 ```
 
----
+### Step 3 — Try It
 
-## ⚙️ Configuration & Options
-
-All flags can also be configured via environment variables:
-
-| Option | Flag | Environment Variable | Default | Description |
-| :--- | :--- | :--- | :--- | :--- |
-| **Provider** | `-p, --provider` | `HAUNTED_PROVIDER` | `ollama` | Provider: `ollama` or `lmstudio` |
-| **Model** | `-m, --model` | `HAUNTED_MODEL` | `gemma3:4b` | Model name (e.g. `gemma3:4b`, `qwen3:4b`) |
-| **Endpoint** | `-e, --endpoint` | `HAUNTED_ENDPOINT` | *Provider default* | `/v1/chat/completions` endpoint URL |
-| **Temperature** | `-t, --temperature` | — | `0.7` | Sampling temperature for the model |
-| **Help** | `-h, --help` | — | — | Show CLI help grimoire |
-| **Version** | `-v, --version` | — | — | Output version number |
-
-### Examples
 ```bash
-# Perform an autopsy using Gemma 3
-node index.js autopsy
+# Autopsy your repo's commit graveyard
+haunted-shell autopsy
 
-# Use a specific local model
-node index.js --model qwen3:4b autopsy
+# Exorcise a failing command
+haunted-shell exorcise npm test
 
-# Commune via LM Studio on port 1234
-node index.js --provider lmstudio --model local-model seance
-
-# Exorcise a failing test suite
-node index.js exorcise npm test
+# Start an interactive séance
+haunted-shell seance
 ```
+
+<br>
 
 ---
 
-## 🕯️ Live Output Showcase
+## 📋 Configuration Reference
 
-### Autopsy Output (Sample Run with Gemma 3)
-```text
+All options can be set via CLI flags or environment variables:
+
+| Option | Flag | Env Variable | Default | Description |
+|:---|:---|:---|:---|:---|
+| Provider | `-p, --provider` | `HAUNTED_PROVIDER` | `ollama` | `ollama` or `lmstudio` |
+| Model | `-m, --model` | `HAUNTED_MODEL` | `gemma3:4b` | Any model name available in your provider |
+| Endpoint | `-e, --endpoint` | `HAUNTED_ENDPOINT` | *Auto from provider* | Full `/v1/chat/completions` URL |
+| Temperature | `-t, --temperature` | — | `0.7` | Sampling temperature (0.0–2.0) |
+| Help | `-h, --help` | — | — | Display the CLI grimoire |
+| Version | `-v, --version` | — | — | Print current version |
+
+### Default Endpoints
+
+| Provider | Endpoint |
+|:---|:---|
+| `ollama` | `http://localhost:11434/v1/chat/completions` |
+| `lmstudio` | `http://localhost:1234/v1/chat/completions` |
+
+### Usage Examples
+
+```bash
+# Use a specific model
+haunted-shell --model qwen3:4b autopsy
+
+# Connect to LM Studio
+haunted-shell --provider lmstudio seance
+
+# Custom endpoint with lower temperature
+haunted-shell -e http://192.168.1.50:11434/v1/chat/completions -t 0.3 autopsy
+```
+
+<br>
+
+---
+
+## 🖥️ Live Output Showcase
+
+### `autopsy` — Forensic Post-Mortem
+
+```
 ⚰️  BEGINNING POST-MORTEM AUTOPSY ON THE REPOSITORY...
 Inspecting branch 'main', recent commits, and deleted code tombs...
 
-(A chilling gust of wind rustles through the repository, and the spectral glow intensifies.)
+(A chilling gust of wind rustles through the repository...)
 
-Hark! I, the Spectral Chronicler, have surveyed the wreckage. 
-The echoes of these revisions… disturbing. Let us delve into the shadowed depths.
+Hark! I, the Spectral Chronicler, have surveyed the wreckage.
 
 1. The Exhumation (Summary of What Was Killed)
-The recent activity reveals a frantic attempt to deliver a “zero-dependency haunted-shell CLI”.
-The initial commit appears to be a rudimentary placeholder. The subsequent addition represents
-a complete architecture. Crucially, empty fields from package.json were deliberate removals.
+   The initial commit appears to be a rudimentary placeholder—a single package.json.
+   The subsequent commit is a sprawling 606-line addition to index.js, a desperate
+   and ambitious implementation. The excised fields from package.json were deliberate
+   removals, signals of a hasty but purposeful restructuring.
 
-2. Haunted Bug Warnings (Specific Defects & Regressions)
-* Regression: Absence of Testing: The "Error: no test specified" test remains.
-* Spectral Echoes: The shell designation suggests deep system integration.
+2. Haunted Bug Warnings
+   • Regression: The empty "test" script remains as a mocking specter.
+   • Spectral Echoes: The "haunted-shell" designation implies deep shell integration—
+     ensure the bin field properly summons the CLI from any directory.
 
-3. The Healing Rite (Concrete Code & Git Actions)
-* Package.json Verification: Ensure description, license, and scripts are purified.
-* Surgical Refactoring: Prioritize modularity and clear error propagation.
+3. The Healing Rite
+   • Verify all package.json metadata fields are restored and accurate.
+   • Add a basic smoke test to banish the "no test specified" phantom.
+   • Consider modularizing the 600-line monolith into separate ritual chambers.
+
+⚰️  Autopsy complete. May the deleted code rest in peace.
 ```
 
-### Exorcise Output (Catching a Crashed Process)
-```text
-⚡ INITIATING TRIAL FOR COMMAND: node -e 'throw new ReferenceError("spectral_pointer is not defined")'
+### `exorcise` — Crash Diagnosis
+
+```
+⚡ INITIATING TRIAL FOR COMMAND: node -e 'undefinedVar.call()'
 Executing in process chamber...
 
-[eval]:1
-throw new ReferenceError("spectral_pointer is not defined")
-^
-ReferenceError: spectral_pointer is not defined
-    at [eval]:1:7
+ReferenceError: undefinedVar is not defined
+    at [eval]:1:1
 
 ────────────────────────────────────────────────────────────
 
@@ -238,33 +379,93 @@ ReferenceError: spectral_pointer is not defined
 Summoning spectral diagnosis from gemma3:4b...
 
 1. The Curse Identified:
-The spectral curse is one of unfulfilled expectation. The process sought to summon 
-a variable—spectral_pointer—only to meet with a chilling silence in memory.
+   A phantom variable—undefinedVar—was invoked from the void. It never existed
+   in any mortal scope, yet the code demanded it speak.
 
 2. The Forensic Breakdown:
-A ReferenceError was explicitly thrown during evaluation. The identifier was not
-allocated in the lexical scope before execution.
+   ReferenceError thrown at eval:1:1. The identifier 'undefinedVar' was never
+   declared in the lexical scope before the .call() method was invoked upon it.
 
 3. The Banishing Incantation:
-Declare the variable or wrap within a protective try/catch ward:
-try {
-  invoke(spectral_pointer);
-} catch (e) {
-  console.warn("The spirit was absent:", e.message);
-}
+   Declare the variable before summoning it, or guard with optional chaining:
+
+     const undefinedVar = getHandler?.() ?? fallbackFn;
+     undefinedVar.call(thisArg);
+
+🔮 The exorcism rite concludes.
 ```
+
+<br>
 
 ---
 
-## 🏆 Hacktoberfest 2026 Submission Details
+## 📦 Zero-Dependency Design Philosophy
 
-* **Challenge**: [Hacktoberfest Open-Source AI Challenge: Week 4](https://dev.to/events/challenges/hacktoberfest-week4-2026-10-26)
-* **Required Tag**: `#hf26challenge`
-* **Additional Tags**: `#hacktoberfest`, `#ai`, `#opensource`, `#node`
-* **Theme**: *Ghost in the Machine* (Halloween / Día de los Muertos inspired builds with open-source/open-weight AI)
+This project uses **zero npm packages**. Every capability is built on Node.js native APIs:
+
+| Capability | Native API Used | Replaces |
+|:---|:---|:---|
+| HTTP requests & streaming | Global `fetch` + `ReadableStream` | axios, node-fetch, got |
+| SSE parsing | Manual `data:` line parser | eventsource, openai SDK |
+| Interactive REPL | `node:readline/promises` | inquirer, prompts |
+| Process execution | `node:child_process` (spawn) | execa, shelljs |
+| ANSI colors | Raw escape sequences | chalk, kleur, picocolors |
+| CLI argument parsing | Manual argv walker | commander, yargs, meow |
+| File system | `node:fs` (readFileSync) | fs-extra |
+| Color support detection | `NO_COLOR` / `isTTY` check | supports-color |
+
+**Why zero dependencies?**
+- 🔒 **Zero supply-chain attack surface** — no `node_modules`, no transitive dependencies
+- ⚡ **Instant startup** — no dependency resolution overhead
+- 📏 **Single-file simplicity** — the entire CLI is one readable `index.js`
+- 🎯 **Node.js 24 LTS** — modern built-ins make external packages unnecessary
+
+<br>
+
+---
+
+## 📜 Why Open-Weight AI Matters Here
+
+This project was built for [**Hacktoberfest 2026: Week 4 — Ghost in the Machine**](https://dev.to/events/challenges/hacktoberfest-week4-2026-10-26) under the `#hf26challenge` tag.
+
+When diagnosing crashes or inspecting git diffs, your terminal sees **everything**: private source code, internal paths, environment variables, API tokens leaked in logs, and proprietary business logic. Routing that through a cloud API means trusting a third party with your most sensitive development context.
+
+By running inference locally with open-weight models like **Google Gemma 3**:
+
+| Benefit | Why It Matters |
+|:---|:---|
+| 🔐 **Absolute Privacy** | Diffs, stack traces, and error logs never leave `localhost` |
+| 🌐 **Offline Resilience** | Works on planes, trains, off-grid cabins, and restricted networks |
+| 💰 **Zero Cost** | No API keys, no rate limits, no surprise token bills |
+| 🔧 **Full Control** | Swap models, fine-tune, or modify behavior without vendor permission |
+| 🏠 **Permanent Ownership** | Your dev tools can't be deprecated, rate-limited, or repriced by an upstream provider |
+
+<br>
+
+---
+
+## 🏆 Hacktoberfest 2026 — Challenge Info
+
+| Detail | Value |
+|:---|:---|
+| **Challenge** | [Hacktoberfest Open-Source AI Challenge: Week 4](https://dev.to/events/challenges/hacktoberfest-week4-2026-10-26) |
+| **Theme** | 🎃 Ghost in the Machine (Halloween / Día de los Muertos) |
+| **Required Tag** | `#hf26challenge` |
+| **Hub** | [HF26 DEV Challenge Hub](https://dev.to/challenges/hf26) |
+
+<br>
 
 ---
 
 ## ⚖️ License
 
 MIT © [Dhruv Gupta](https://github.com/dhruv-gupta-dev)
+
+<div align="center">
+<br>
+
+*The spirits are restless. Your terminal awaits.*
+
+🕯️👻🕯️
+
+</div>
